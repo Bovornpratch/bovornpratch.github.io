@@ -1,81 +1,40 @@
 ---
 layout: page
-title: project 2
-description: a project with a background image and giscus comments
+title:  AGN Obscuration
+description: 
 img: assets/img/3.jpg
 importance: 2
 category: work
 giscus_comments: true
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+E<h3>Observational Properties of AGN Obscuration During the Peak of Accretion Growth</h3>
+<h6> <a href="https://ui.adsabs.harvard.edu/abs/2024MNRAS.529.3610V/abstract">Vijarnwannaluk et al. 2024</a> </h6>
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
-
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
-
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
-
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
+In this work we investigated the properties of dusty material surrounding the supermassive black hole.  Dusty material surrounding the black hole can exist only if the SMBH is not overly luminous for the black hole mass. This means that dusty gas surrounding black holes can only exist in specific areas of the Hydrogen column density and Eddington ratio diagram. We found that on average, most dusty AGN have lower Eddington ratio than unabsorbed AGN and the critical effective Eddington ratio which will trigger a blow-out of the dusty gas. However, a siginfican fraction of dusty AGN are above the critcal effective Eddington ratio, indicating dusty gas which is not physically bound by the SMBH.  We also find evidence of dusty-free gas in the population of unabsorbed AGN.
 
 <div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    <div class="col-sm-12 mt-3 mt-md-0">
+        {% include figure.html path="assets/img/lognh_edd.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
+    The spectral energy distribution of X-ray obscured and unobscured AGN compared with empirical models.
 </div>
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
 
-{% raw %}
+<h3>The Obscured Fraction of Luminous Quasars at Cosmic Noon</h3>
+<h6> <a href="https://ui.adsabs.harvard.edu/abs/2022ApJ...941...97V/abstract">Vijarnwannaluk et al. 2022</a> </h6>
 
-```html
+In this project, we examined the fraction of obscured AGN during the peak era of accretion growth (z~2). There is a trend in which the fraction of obscured AGN increases with redshift but the fraction is not well determined for luminous high redshift AGN. In this project, we used deep and wide X-ray datasets combined with deep optical and infrared datasets to search for the host galaxy of X-ray sources and estimate their redshift. 
+
+By using a sample of 306 AGN at z>2, we determined that 76% of luminous high redshift AGN are obscured suggesting that a large fraction of accretion growth occurs under obscuration. We also investigate the spectral energy distribution of unobscured and obscured AGN. We found that both unobscured and obscured AGN show a variety of shapes which may reflect the broad variety of host galaxy properties and physical processes associated with the obscuration
+
 <div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
+    <div class="col-sm-12 mt-3 mt-md-0">
+        {% include figure.html path="assets/img/sed_compare_NH.png" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
 </div>
-```
-
-{% endraw %}
+<div class="caption">
+    The spectral energy distribution of X-ray obscured and unobscured AGN compared with empirical models.
+</div>
