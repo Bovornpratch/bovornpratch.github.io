@@ -2,8 +2,99 @@
   type: map
   contents:
     - name: Full Name
-      value: Bovornpratch Vijarnwannluk
-    - name: Date of Birth
-      value: 14th March 1879
-    - name: Languages
-      value: English, German
+      value: Bovornpratch "Klod" Vijarnwannaluk
+    - name: Current Position 
+      value: Post-Doc 
+    - name: Affilation
+      value: Academia Sinica Institute of Astronomy and Astrophysics (ASIAA)
+    - name: E-mail
+      value: bkvijarnwannaluk@asiaa.sinica.edu.tw
+
+- title: Education
+  type: time_table
+  contents:
+    - title: Doctor of Philosophy (Astronomy)
+      institution: Astronomical Institute, Tohoku University
+      year: 2023
+    - title: Master of Science (Astronomy)
+      institution: Astronomical Institute, Tohoku University
+      year: 2022
+    - title: Bachelor of Science (Physics), Second Honors
+      institution: Department of Physics, Chulalongkorn University
+      year: 2017
+      
+- title: Academic Interests
+  type: nested_list
+  contents:
+    - title: Cosmological Evolution of Active Galactic Nuclei
+      items: 
+        - Cosmological Supermassive Blackhole Growth
+        - Cosmological Evolution of AGN Obscuration 
+        - The Role of AGN-Host Galaxy Feedback in Galaxy Evolution and AGN Obscuration.
+        
+- title: Professional Experience
+  type: time_table
+  contents:
+    - title: Post-Doc
+      institution: ASIAA
+      year: 2023-Present
+    - title: PhD. Candidate
+      institution: Astronomical Institute Tohoku University
+      year: 2018-2023
+    - title: Research Assistant
+      institution: National Astronomical Reasearch Institute of Thailand
+      year: 2017 - 2018
+
+
+- title: Selected Presentations
+  type: time_table
+  contents:
+    - year: 2025
+      items :
+        - Peering through the Opaque ISM, Ferrara 2025, "The X-ray Absorption by the Interstellar Medium in Active Galaxies", Sep 1st-5th 2025, Oral
+    - year: 2024
+      items :
+        - 10th Galaxy Evolution Workshop 2023, "The Host Morphologies of X-ray-selected Active Galactic Nuclei Observed with JWST", Taipei, Taiwan, August 6-9, 2024, Oral
+    - year: 2023
+      items :
+        - 9th Galaxy Evolution Workshop 2023, "The Population of Luminous Obscured Quasars at Cosmic Noon Unveiled with Deep and Wide Multiwavelength Survey" Feb 20th-23rd 2023, Oral
+    - year: 2022
+      items: 
+        - What drives the growth of black holes A decade of reflection, "The Obscured Fraction of Luminous X-ray AGN at the Peak of the Cosmic Accretion Growth", Sep 26th-30th, Poster, Online 
+        - COSPAR 2022 44th Scientific Assembly "The Obscured Fraction of Luminous X-ray AGN at the Peak of the Cosmic Accretion Growth" Jul 16th-24th, Poster
+        - Galaxy Evolution Workshop 2021 "The Obscured Fraction of X-ray Luminous Quasars at Redshift 2-5" Feb 7-10, Oral
+    - year: 2021
+      items: 
+        - East-Asia AGN Workshop 2021 "A Search for high-z obscured AGNs in Deep & Wide Multi-wavelength imaging datasets", Oct 11-13, Oral
+        - Autumn Annual Meeting of Astronomical Society of Japan, "Searching for high-z obscured AGNs in Deep & Wide Multi-wavelength imaging datasets", Sep 13-15, Oral
+        
+- title: Award Grants
+  type: time_table
+  contents:
+    - year: 2023
+      items :
+        - AHEAD 2020 Cycle 5 Trans-national access to X-ray data analysis 
+        - Tohoku Development Memorial Foundation for research visit
+    - year: 2022
+      items: 
+        - 118th Hayakawa Yukio funding to attend oversea conferences.
+        - Foundation for Promotion of Astronomy to attend oversea conferences (Declined due to conflict with Hayakawa Yukio)
+    - year: 2018
+      items: 
+        - MEXT University-Recommended Scholarship (2018-present)
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
