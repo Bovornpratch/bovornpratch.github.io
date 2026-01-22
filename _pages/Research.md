@@ -14,7 +14,7 @@ My research is focused on Active Galactic Nuclei (AGN) and supermassive blackhol
 Here I summarize the research I have done.
 
 <h3>Size and Stellar Mass of AGN host galaxies</h3>
-<h6> <a href="https://ui.adsabs.harvard.edu/abs/2025arXiv251013719V/abstract">Vijarnwannaluk et al. accepted</a> </h6>
+<h6> <a href="https://ui.adsabs.harvard.edu/abs/2025arXiv251013719V/abstract">Vijarnwannaluk et al. 2025</a> </h6>
 
 The sensitivity and wavelength coverage of JWST has opened a unique window into the past of the universe. However, in this project we leverage the high angular resolution of JWST in the near infrared to look into the size and shapes of AGN host galaxies. AGNs are a particularly troublesome phase of galaxies where the AGN light often contaminates the star light which is why high angular resolution is needed to seperate the two. With JWST and the COSMOS-Web survey, we found that AGN host galaxies are b tiddy bit smaller than star-forming galaxies of the same stellar mass. However, they have shapes closer to that of passive galaxies with less star formation.
 
